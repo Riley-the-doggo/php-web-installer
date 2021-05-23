@@ -1,0 +1,33 @@
+RECOVERY:go to inc\_RUN_.php
+change
+<?php
+$t = "1";
+?>
+to
+<?php
+$t = "7";
+?>
+go to inc\config.inc.php
+ctrl+a
+backspace
+------------------------------------------------
+<?php
+$dbServ ='db server';
+$dbName ='db name';
+$dbUser ='db user';
+$dbPass ='db password';
+$mysql = mysqli_connect($dbServ, $dbUser,$dbPass, $dbName);
+include "valid.php";
+?>
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------

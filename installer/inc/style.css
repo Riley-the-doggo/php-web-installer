@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'micross';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Awesome-Font'), local('Awesome-Font-Regular'), url(woff/micross.woff) format('woff');
+}
+body{
+    font-family:micross ;
+    background-image: linear-gradient(to right, rgb(50, 53, 65), rgb(67, 64, 80));
+}
+form.install_forum{
+    border-style: solid;
+    color: #000;
+}
+#text{
+    color: #000;   
+}
+p.name{
+    color: #000;
+}
+input{
+    color: #000;
+}
+b{
+    border-color: darkred;
+    border-style: solid;
+    color: darkred;
+    text-align: center;
+}
+input.db_pwd{
+    font-family: micross;
+    color: darkcyan;
+}
